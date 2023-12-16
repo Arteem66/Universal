@@ -1,0 +1,34 @@
+body{
+	font-family: $main-font;
+	color: $main-color;
+	font-size: 0.875rem;
+}
+
+.header {
+}
+
+.main{
+	background: #EDEFF0;
+	height: 100%;
+}
+
+.container{
+	padding: 0 30px;
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.bg{
+	position: absolute;
+	top: 136px;
+	left: 0;
+	background-color: #262D33;
+	height: 530px;
+	width: 100%;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #D9DADB;
+}
