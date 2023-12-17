@@ -1,37 +1,72 @@
-body{
+body {
 	font-family: $main-font;
 	color: $main-color;
 	font-size: 0.875rem;
+}
+
+a {
+	transition: all 0.3s;
+
+	&:hover {
+		color: $accent-color;
+	}
 }
 
 .header {
 	margin-bottom: 30px;
 }
 
-.news{
-	background: #EDEFF0;
+.news {
+	background: #edeff0;
 	width: 100%;
 	height: 100%;
 }
 
-.container{
+.container {
 	padding: 0 30px;
 	max-width: 1140px;
 	margin: 0 auto;
 }
 
-.bg{
+.bg {
 	position: absolute;
 	top: 136px;
 	left: 0;
-	background-color: #262D33;
+	background-color: #262d33;
 	height: 530px;
 	width: 100%;
-	
 }
 
 .line {
-  width: 100%;
-  height: 1px;
-  background-color: #D9DADB;
+	width: 100%;
+	height: 1px;
+	background-color: #d9dadb;
+}
+
+.themes {
+	font-size: 12px;
+	line-height: 15px;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+
+	&-food {
+		color: #3bbdc4;
+		margin-bottom: 8px;
+	}
+	&-cars {
+		color: #6E99AE;
+		margin-bottom: 8px;
+	}
+	&-movies {
+		color: #AC8EE3;
+		margin-bottom: 8px;
+	}
+	&-nfl {
+		color: #FFA34D;
+		margin-bottom: 8px;
+	}
+	&-reviews {
+		color: #3DC47E;
+		margin-bottom: 8px;
+	}
 }

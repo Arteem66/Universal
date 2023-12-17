@@ -20,7 +20,7 @@
 			<div class="container">
 				<div class="header__wrapper">
 					<div class="header__row">
-						<div class="column">
+						<div class="header__column">
 							<div class="burger__menu">
 								<button class="burger">
 									<span></span>
@@ -37,7 +37,7 @@
 								<input placeholder="Search" type="search" />
 							</form>
 						</div>
-						<div class="column">
+						<div class="header__column">
 							<div class="subscribe">
 								<img src="img/header/1.png" alt="img news subscribe" />
 								<div class="subscribe__info">
@@ -57,18 +57,18 @@
 					</div>
 					<hr class="line" />
 					<div class="header__row">
-						<div class="column">
+						<div class="header__column">
 							<img class="place__img" src="img/header/2.png" alt="" />
 							<p class="plac__name">Boston and New York Bear Brunt</p>
 						</div>
 						<div class="logo">
 							<h1>
 								<a href="#">
-                  <img src="img/header/logo.svg" alt="" />
-                </a>
+									<img src="img/header/logo.svg" alt="" />
+								</a>
 							</h1>
 						</div>
-						<div class="column">
+						<div class="header__column">
 							<div class="place__data">
 								<p>Monday, January 1, 2018</p>
 							</div>
@@ -125,29 +125,109 @@
 			</div>
 		</header>
 		<main class="news">
-      <div class="bg"></div>
+			<div class="bg"></div>
 			<section class="new__news">
 				<div class="container">
 					<div class="news__wrapper">
-            <div class="news__content">
-              <h2 class="news__title">25 Songs That Tell Us Where Music Is Going</h2>
-              <img src="img/new-news/news1.png" alt="img news">
-            </div>
-            <div class="news__content">
-              <h2 class="news__title">These Ancient Assassins Eat Their Own Kind</h2>
-              <img src="img/new-news/news2.png" alt="img news">
-            </div>
-            <div class="news__content">
-              <h2 class="news__title">How Do You Teach People to Love Difficult Music?</h2>
-              <img src="img/new-news/news3.png" alt="img news">
-            </div>
-            <div class="news__content">
-              <h2 class="news__title">International Soccer’s Man of Mystery</h2>
-              <img src="img/new-news/news4.png" alt="img news">
-            </div>
-          </div>
+						<a href="#" class="news__content">
+							<h2 class="news__title">
+								25 Songs That Tell Us Where Music Is Going
+							</h2>
+							<img src="img/new-news/news1.png" alt="img news" />
+						</a>
+						<a href="#" class="news__content">
+							<h2 class="news__title">
+								These Ancient Assassins Eat Their Own Kind
+							</h2>
+							<img src="img/new-news/news2.png" alt="img news" />
+						</a>
+						<a href="#" class="news__content">
+							<h2 class="news__title">
+								How Do You Teach People to Love Difficult Music?
+							</h2>
+							<img src="img/new-news/news3.png" alt="img news" />
+						</a>
+						<a href="#" class="news__content">
+							<h2 class="news__title">International Soccer’s Man of Mystery</h2>
+							<img src="img/new-news/news4.png" alt="img news" />
+						</a>
+					</div>
 				</div>
+			</section>
+			<section class="news__recommended">
+				<aside class="recommen__block">
+					<div class="container">
+						<div class="recommen__block-wrapper">
+							<div class="recommen__left">
+								<img class="recommen__left-bg" src="img/recommen-block/Rectangle.png" alt="" />
+								<div class="recommen__content">
+									<div class="recommen__content-author">
+										<img class="author__icon" src="img/recommen-block/image-190.png" alt="">
+										<div class="author__info">
+											<p class="author__name">By Benjamin Turner</p>
+											<p class="author__hobby">Traveler</p>
+										</div>
+									</div>
+									<div class="recommen__content-info">
+										<div class="info__destinations">Destinations</div>
+										<div class="info__title">In Southeast England, White Cliffs and Fish</div>
+										<div class="info__more">
+											<a class="info__more-btn" href="#">Read more</a>
+											<div class="info__music">
+												<button class="info__music-btn">
+													<img src="img/recommen-block/Arrow-mini.svg" alt="">
+												</button>
+												<div class="info__music-descr">
+													<p class="music__descr-name">The chalk cliff of Beachy Head</p>
+													<p class="music__descr-time">18:05</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="recommen__right">
+								<p class="recommen__right-title">Recommended for you</p>
+								<div class="recommen__list">
+									<a class="recommen__item recommen__item-active">
+										<p class="themes themes-food">food</p>
+										<p class="recommen__news recommen__news-music">
+											For Chicken-Fried Steak, Too Much Is Just Enough
+										</p>
+									</a>
+									<a class="recommen__item">
+										<p class="themes themes-cars">Cars</p>
+
+										<p class="recommen__news">
+											Storm Has Car Dealers Doing Swift Business
+										</p>
+									</a>
+									<a class="recommen__item">
+										<p class="themes themes-movies">Movies</p>
+										<p class="recommen__news">
+											War Is Hell? In New Military Dramas, It’s One-Dimensional
+										</p>
+									</a>
+									<a class="recommen__item">
+										<p class="themes themes-nfl">NFL</p>
+										<p class="recommen__news recommen__news-music">
+											11 surprising stat rankings for active NFL players
+										</p>
+									</a>
+									<a class="recommen__item">
+										<p class="themes themes-reviews">Tech Reviews</p>
+										<p class="recommen__news">
+											The bookcases you can buy online and assemble yourself
+										</p>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</aside>
+				<aside class="recommen__grid"></aside>
 			</section>
 		</main>
 	</body>
+	<script src="js/main.js"></script>
 </html>
