@@ -1,3 +1,6 @@
+// ========================BLOCK===========================
+// ========================BLOCK===========================
+
 .recommen__block {
 	margin-bottom: 30px;
 }
@@ -78,6 +81,7 @@
 .info__more-btn {
 	position: relative;
 	background-color: $accent-color;
+	color: $white;
 	padding: 0 45px 0 25px;
 	height: 40px;
 	border-radius: 20px;
@@ -194,4 +198,12 @@
 	font-size: 14px;
 	line-height: 20px;
 	max-width: 210px;
+}
+
+// ========================GRID===========================
+// ========================GRID===========================
+
+.grid__wrapper{
+	display: grid;
+	grid-template: repeat(1fr, 4) / repeat(1fr, 4);
 }

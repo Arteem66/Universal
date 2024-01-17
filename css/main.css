@@ -513,6 +513,7 @@ a:hover {
 .info__more-btn {
   position: relative;
   background-color: #4592FF;
+  color: #fff;
   padding: 0 45px 0 25px;
   height: 40px;
   border-radius: 20px;
@@ -661,4 +662,43 @@ a:hover {
   font-size: 14px;
   line-height: 20px;
   max-width: 210px;
+}
+
+.grid__wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (4)[1fr];
+  -ms-grid-columns: (4)[1fr];
+      grid-template: repeat(1fr, 4)/repeat(1fr, 4);
+}
+
+.news__more {
+  background: url(../img/news__more/image-216.png);
+}
+
+.news__more-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 50px 0 55px;
+}
+
+.news__more-title {
+  color: #fff;
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 25px;
 }

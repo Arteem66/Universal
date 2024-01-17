@@ -1,0 +1,19 @@
+.news__more {
+	background: url(../img/news__more/image-216.png);
+}
+.news__more-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 50px 0 55px;
+}
+.news__more-title {
+	color: $white;
+	font-family: $secondary-font;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 50px;
+	margin-bottom: 25px;
+}
